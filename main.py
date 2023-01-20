@@ -184,7 +184,7 @@ while True:
                     filepath = values['-Crypted_file_IN-'].split("/")
                     filepath.pop(-1)
                     filepath = "/".join(filepath) + "/" + filename_DECRYPTED
-                    with open(filepath, "w+") as file:
+                    with open(filepath, "w+", encoding="utf-8") as file:
                         for i in listletter:
                             listletter = chr(pow(i, privatekey, pubkey))
                             file.write(listletter)

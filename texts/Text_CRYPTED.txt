@@ -1,5 +1,5 @@
 EncryptedData :: = SEQUENCE {
 contentType text
 contentEncryptionAlgorithmIdentifier rsaEncryption
-encryptedContent 0950108341
+encryptedContent 20408522292982730327116802490111680249012040852229
          }
