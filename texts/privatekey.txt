@@ -1,0 +1,7 @@
+RSAPrivateKey ::= SEQUENCE {
+            modulus 1722866647,
+            publicExponent 17,
+            privateExponent -405360847,
+            prime1 40351,
+            prime2 42697,
+}

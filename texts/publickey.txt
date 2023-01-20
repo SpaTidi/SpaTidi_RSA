@@ -1,0 +1,4 @@
+RSAPublicKey ::= SEQUENCE {
+            modulus 1722866647,
+            publicExponent 17
+}

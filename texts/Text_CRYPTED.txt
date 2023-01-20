@@ -1,0 +1,5 @@
+EncryptedData :: = SEQUENCE {
+contentType text
+contentEncryptionAlgorithmIdentifier rsaEncryption
+encryptedContent 0950108341
+         }
